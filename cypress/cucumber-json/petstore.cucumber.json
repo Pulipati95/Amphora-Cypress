@@ -1,0 +1,62 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "CRUD operations for Pet API",
+    "line": 1,
+    "id": "crud-operations-for-pet-api",
+    "tags": [],
+    "uri": "petstore.feature",
+    "elements": [
+      {
+        "id": "crud-operations-for-pet-api;create,-read,-update,-and-delete-a-pet",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Create, read, update, and delete a pet",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I create a new pet with name \"Fluffy\" and status \"available\"",
+            "result": {
+              "status": "passed",
+              "duration": 1801000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I update the pet status to \"sold\"",
+            "result": {
+              "status": "passed",
+              "duration": 277000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should be able to read the pet with updated status",
+            "result": {
+              "status": "passed",
+              "duration": 298000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I should be able to delete the pet",
+            "result": {
+              "status": "passed",
+              "duration": 308000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
