@@ -1,0 +1,15 @@
+Cypress Practical Test
+Demonstrate the understanding of test automation in creating UI and API tests with Cypress/JavaScript using best practices. Structure the tests using Cucumber (BDD) and Page Object Model (POM). Capture screenshots/videos in the case of test failures. Configure the tests to run in the command line and generate any report after running the tests. Have a single Project with separate directories for UI and API Tests. Submit the test code via Google Drive Link OR Dropbox OR as a ZIP file.
+Task 1 (UI):
+- Go to Google Website
+- Search for Amphora
+- Look for "Amphora CTRM" and click the link to go to the Amphora website
+- Click on different Products from the dropdown and make the appropriate assertions
+- Again, signup the newsletter under Resources dropdown and assert on "Thank you for signing up for our newsletter"
+Task 2 (API):
+- Use the dummy API swagger link: https://petstore.swagger.io/#/
+- Take the section on "pet" and add necessary tests on the use of CRUD Methods
+- Create a unique pet and add appropriate assertions
+- Update the newly created pet and add appropriate assertions
+- Read the newly created pet and add appropriate assertions
+- Finally Delete the newly created pet and add appropriate assertions
